@@ -3,7 +3,7 @@ body.open-menu {
 }
 .header__wrapper {
     position: relative;
-  
+  z-index: 99;
 }
 .header__top {
     display: flex;
@@ -67,7 +67,8 @@ body.open-menu {
 }
 .cart__span-box {
     font-size: 2.2rem;
-    display: none;
+    display: flex;
+    margin: 0 1rem;
     align-items: center;
 }
 .cart__span-box svg {
@@ -119,7 +120,6 @@ body.open-menu {
 }
 .header__logo {
     display: block;
-    text-align: center;
     position: relative;
     z-index: 100;
 }
