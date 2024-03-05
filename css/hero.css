@@ -96,12 +96,15 @@
 }
 .hero {
     text-align: center;
-    padding: 15rem 0;
+    padding: 5rem 0;
     position: relative;
 }
 .hero .title {
     line-height: 1;
     margin-bottom: 2rem;
+    max-width: 60rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 .hero .text {
     margin: 0 auto 4rem;
@@ -257,11 +260,17 @@
 }
 
 
-
+.hero__img {
+    width: 100%;
+    max-width: 70rem;
+    max-height: 30rem;
+    object-fit: cover;
+    margin: 0 auto 2rem;
+}
 
 @media screen and (min-width: 1440px)  {
     .hero {
-        padding: 30rem 10rem 22rem;
+        padding: 10rem;
         text-align: right;
     }
     .hero .text,
@@ -294,6 +303,9 @@
     }
     .contacts__item-link .text:hover {
         letter-spacing: .3rem;
+    }
+    .hero .title {
+        margin-right: 0;
     }
 
 
